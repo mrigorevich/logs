@@ -11,7 +11,7 @@
 •	Все логи с nginx должны уходить на удаленный сервер (локально только критичные).<br>
 •	Логи аудита должны также уходить на удаленную систему.<br><br>
 _______________________________________________________________________________________
-1.	Машины поднимаем при помощи Vagrantfile [ссылка]<br><br>
+1.	Машины поднимаем при помощи [Vagrantfile](https://github.com/mrigorevich/logs/blob/main/Vagrantfile) <br><br>
 `sudo timedatectl set-timezone Europe/Moscow` # на каждой ВМ устанавливаем часовой пояс<br><br>
 2.	На ВМ web:<br><br>
 `sudo apt update && apt install -y nginx` # устанавливаем Nginx<br><br>
